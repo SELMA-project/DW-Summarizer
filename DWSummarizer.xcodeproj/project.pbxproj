@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C16506032A3B3AD400734BAC /* SelmaKitWrapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16506022A3B3AD400734BAC /* SelmaKitWrapperApp.swift */; };
+		C16506052A3B3AD400734BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16506042A3B3AD400734BAC /* ContentView.swift */; };
+		C16506072A3B3AD500734BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16506062A3B3AD500734BAC /* Assets.xcassets */; };
+		C165060B2A3B3AD500734BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C165060A2A3B3AD500734BAC /* Preview Assets.xcassets */; };
+		C16506132A3B3AEC00734BAC /* SelmaKit in Frameworks */ = {isa = PBXBuildFile; productRef = C16506122A3B3AEC00734BAC /* SelmaKit */; };
+		C16506162A3B3B5700734BAC /* SummarisationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16506152A3B3B5700734BAC /* SummarisationView.swift */; };
+		C1734C682A77BB96002B4A03 /* DWUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = C1734C672A77BB96002B4A03 /* DWUtilities */; };
+		C1734C6A2A77F1F0002B4A03 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1734C692A77F1F0002B4A03 /* SettingsView.swift */; };
+		C1734C6C2A77F217002B4A03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1734C6B2A77F217002B4A03 /* Constants.swift */; };
+		C1917AFE2A741197007B11D1 /* CleverBird in Frameworks */ = {isa = PBXBuildFile; productRef = C1917AFD2A741197007B11D1 /* CleverBird */; };
+		C1917B002A7411F5007B11D1 /* OpenAI+CleverBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1917AFF2A7411F5007B11D1 /* OpenAI+CleverBird.swift */; };
+		C1D9FB062A7254A000810573 /* TextBlockHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D9FB052A7254A000810573 /* TextBlockHeaderView.swift */; };
+		C1D9FB092A725CC200810573 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = C1D9FB082A725CC200810573 /* OpenAISwift */; };
+		C1D9FB0B2A725CEA00810573 /* OpenAI+OpenAISwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D9FB0A2A725CEA00810573 /* OpenAI+OpenAISwift.swift */; };
+		C1F458BB2A715A3B0099AAEA /* HWSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F458BA2A715A3A0099AAEA /* HWSView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C16505FF2A3B3AD400734BAC /* DW Summarizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Summarizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16506022A3B3AD400734BAC /* SelmaKitWrapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelmaKitWrapperApp.swift; sourceTree = "<group>"; };
+		C16506042A3B3AD400734BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C16506062A3B3AD500734BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C16506082A3B3AD500734BAC /* SelmaKitWrapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SelmaKitWrapper.entitlements; sourceTree = "<group>"; };
+		C165060A2A3B3AD500734BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C16506152A3B3B5700734BAC /* SummarisationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarisationView.swift; sourceTree = "<group>"; };
+		C1734C692A77F1F0002B4A03 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C1734C6B2A77F217002B4A03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C1917AFF2A7411F5007B11D1 /* OpenAI+CleverBird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OpenAI+CleverBird.swift"; sourceTree = "<group>"; };
+		C1D9FB052A7254A000810573 /* TextBlockHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBlockHeaderView.swift; sourceTree = "<group>"; };
+		C1D9FB0A2A725CEA00810573 /* OpenAI+OpenAISwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OpenAI+OpenAISwift.swift"; sourceTree = "<group>"; };
+		C1F458BA2A715A3A0099AAEA /* HWSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSView.swift; sourceTree = "<group>"; };
+		F700E1E42AFA54D00074BA11 /* DW-Summarizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DW-Summarizer-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C16505FC2A3B3AD400734BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1917AFE2A741197007B11D1 /* CleverBird in Frameworks */,
+				C1D9FB092A725CC200810573 /* OpenAISwift in Frameworks */,
+				C1734C682A77BB96002B4A03 /* DWUtilities in Frameworks */,
+				C16506132A3B3AEC00734BAC /* SelmaKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C16505F62A3B3AD400734BAC = {
+			isa = PBXGroup;
+			children = (
+				F700E1E42AFA54D00074BA11 /* DW-Summarizer-Info.plist */,
+				C16506012A3B3AD400734BAC /* SelmaKitWrapper */,
+				C16506002A3B3AD400734BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C16506002A3B3AD400734BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16505FF2A3B3AD400734BAC /* DW Summarizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C16506012A3B3AD400734BAC /* SelmaKitWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C16506022A3B3AD400734BAC /* SelmaKitWrapperApp.swift */,
+				C16506042A3B3AD400734BAC /* ContentView.swift */,
+				C1F458BA2A715A3A0099AAEA /* HWSView.swift */,
+				C16506152A3B3B5700734BAC /* SummarisationView.swift */,
+				C1D9FB0A2A725CEA00810573 /* OpenAI+OpenAISwift.swift */,
+				C1917AFF2A7411F5007B11D1 /* OpenAI+CleverBird.swift */,
+				C1D9FB052A7254A000810573 /* TextBlockHeaderView.swift */,
+				C1734C692A77F1F0002B4A03 /* SettingsView.swift */,
+				C1734C6B2A77F217002B4A03 /* Constants.swift */,
+				C16506062A3B3AD500734BAC /* Assets.xcassets */,
+				C16506082A3B3AD500734BAC /* SelmaKitWrapper.entitlements */,
+				C16506092A3B3AD500734BAC /* Preview Content */,
+			);
+			path = SelmaKitWrapper;
+			sourceTree = "<group>";
+		};
+		C16506092A3B3AD500734BAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C165060A2A3B3AD500734BAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C16505FE2A3B3AD400734BAC /* DW Summarizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C165060E2A3B3AD500734BAC /* Build configuration list for PBXNativeTarget "DW Summarizer" */;
+			buildPhases = (
+				C16505FB2A3B3AD400734BAC /* Sources */,
+				C16505FC2A3B3AD400734BAC /* Frameworks */,
+				C16505FD2A3B3AD400734BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DW Summarizer";
+			packageProductDependencies = (
+				C16506122A3B3AEC00734BAC /* SelmaKit */,
+				C1D9FB082A725CC200810573 /* OpenAISwift */,
+				C1917AFD2A741197007B11D1 /* CleverBird */,
+				C1734C672A77BB96002B4A03 /* DWUtilities */,
+			);
+			productName = SelmaKitWrapper;
+			productReference = C16505FF2A3B3AD400734BAC /* DW Summarizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C16505F72A3B3AD400734BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C16505FE2A3B3AD400734BAC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C16505FA2A3B3AD400734BAC /* Build configuration list for PBXProject "DWSummarizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C16505F62A3B3AD400734BAC;
+			packageReferences = (
+				C16506112A3B3AEC00734BAC /* XCRemoteSwiftPackageReference "SelmaKit" */,
+				C1D9FB072A725CC200810573 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				C1917AFC2A741197007B11D1 /* XCRemoteSwiftPackageReference "CleverBird" */,
+				C1734C662A77BB96002B4A03 /* XCRemoteSwiftPackageReference "DWUtilities" */,
+			);
+			productRefGroup = C16506002A3B3AD400734BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C16505FE2A3B3AD400734BAC /* DW Summarizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16505FD2A3B3AD400734BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C165060B2A3B3AD500734BAC /* Preview Assets.xcassets in Resources */,
+				C16506072A3B3AD500734BAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C16505FB2A3B3AD400734BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16506162A3B3B5700734BAC /* SummarisationView.swift in Sources */,
+				C1734C6A2A77F1F0002B4A03 /* SettingsView.swift in Sources */,
+				C1917B002A7411F5007B11D1 /* OpenAI+CleverBird.swift in Sources */,
+				C1F458BB2A715A3B0099AAEA /* HWSView.swift in Sources */,
+				C1D9FB062A7254A000810573 /* TextBlockHeaderView.swift in Sources */,
+				C1D9FB0B2A725CEA00810573 /* OpenAI+OpenAISwift.swift in Sources */,
+				C16506052A3B3AD400734BAC /* ContentView.swift in Sources */,
+				C16506032A3B3AD400734BAC /* SelmaKitWrapperApp.swift in Sources */,
+				C1734C6C2A77F217002B4A03 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C165060C2A3B3AD500734BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C165060D2A3B3AD500734BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C165060F2A3B3AD500734BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SelmaKitWrapper/SelmaKitWrapper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SelmaKitWrapper/Preview Content\"";
+				DEVELOPMENT_TEAM = 82DH72DY44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DW-Summarizer-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DW Summarizer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab-dw.dw-summarizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C16506102A3B3AD500734BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SelmaKitWrapper/SelmaKitWrapper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SelmaKitWrapper/Preview Content\"";
+				DEVELOPMENT_TEAM = 82DH72DY44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DW-Summarizer-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DW Summarizer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab-dw.dw-summarizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C16505FA2A3B3AD400734BAC /* Build configuration list for PBXProject "DWSummarizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C165060C2A3B3AD500734BAC /* Debug */,
+				C165060D2A3B3AD500734BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C165060E2A3B3AD500734BAC /* Build configuration list for PBXNativeTarget "DW Summarizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C165060F2A3B3AD500734BAC /* Debug */,
+				C16506102A3B3AD500734BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C16506112A3B3AEC00734BAC /* XCRemoteSwiftPackageReference "SelmaKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/agiefer/SelmaKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C1734C662A77BB96002B4A03 /* XCRemoteSwiftPackageReference "DWUtilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/agiefer/DWUtilities.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C1917AFC2A741197007B11D1 /* XCRemoteSwiftPackageReference "CleverBird" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/btfranklin/CleverBird.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		C1D9FB072A725CC200810573 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C16506122A3B3AEC00734BAC /* SelmaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16506112A3B3AEC00734BAC /* XCRemoteSwiftPackageReference "SelmaKit" */;
+			productName = SelmaKit;
+		};
+		C1734C672A77BB96002B4A03 /* DWUtilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1734C662A77BB96002B4A03 /* XCRemoteSwiftPackageReference "DWUtilities" */;
+			productName = DWUtilities;
+		};
+		C1917AFD2A741197007B11D1 /* CleverBird */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1917AFC2A741197007B11D1 /* XCRemoteSwiftPackageReference "CleverBird" */;
+			productName = CleverBird;
+		};
+		C1D9FB082A725CC200810573 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D9FB072A725CC200810573 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C16505F72A3B3AD400734BAC /* Project object */;
+}

@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "cleverbird",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/btfranklin/CleverBird.git",
+      "state" : {
+        "revision" : "f0ebfa1f2c29d267cc47e174b8eae82104cfc249",
+        "version" : "4.1.1"
+      }
+    },
+    {
+      "identity" : "dwutilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/agiefer/DWUtilities.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bdb074c172ffa321888c9ab7f3dce0e15cb5ddf0"
+      }
+    },
+    {
+      "identity" : "get",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Get",
+      "state" : {
+        "revision" : "12830cc64f31789ae6f4352d2d51d03a25fc3741",
+        "version" : "2.1.6"
+      }
+    },
+    {
+      "identity" : "openaiswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adamrushy/OpenAISwift.git",
+      "state" : {
+        "revision" : "ca66fb720d6ebb657601db5a0852b830ae310a4c",
+        "version" : "1.4.1"
+      }
+    },
+    {
+      "identity" : "selmakit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/agiefer/SelmaKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "50344730a7c398f596db20f7e8c97494804b7f78"
+      }
+    }
+  ],
+  "version" : 2
+}
