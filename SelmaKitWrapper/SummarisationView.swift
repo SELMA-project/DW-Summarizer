@@ -141,7 +141,7 @@ struct SummarisationView: View {
             // summarize
             let summerizer = PriberamSummerizer()
             if let summary = await summerizer.summarizeUsingExtractiveEBR(text: incomingText, minimumCharacterLength: maxNumberOfTokens-100, maximumCharacterLength: maxNumberOfTokens, diversityWeight: temperature) {
-                outgoingText = summary.split(separator: ". ").joined(separator: ".\n\n")
+                outgoingText = summary
             } else {
                 print("Did not receive a valid result from PriberamSummerizer.")
             }
