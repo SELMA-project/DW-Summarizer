@@ -22,7 +22,18 @@
 		C1D9FB092A725CC200810573 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = C1D9FB082A725CC200810573 /* OpenAISwift */; };
 		C1D9FB0B2A725CEA00810573 /* OpenAI+OpenAISwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D9FB0A2A725CEA00810573 /* OpenAI+OpenAISwift.swift */; };
 		C1F458BB2A715A3B0099AAEA /* HWSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F458BA2A715A3A0099AAEA /* HWSView.swift */; };
+		F72B3DA62B88A4A300F15903 /* DW_SummarizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B3DA52B88A4A300F15903 /* DW_SummarizerTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F72B3DA72B88A4A300F15903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C16505F72A3B3AD400734BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C16505FE2A3B3AD400734BAC;
+			remoteInfo = "DW Summarizer";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C16505FF2A3B3AD400734BAC /* DW Summarizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Summarizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +50,8 @@
 		C1D9FB0A2A725CEA00810573 /* OpenAI+OpenAISwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OpenAI+OpenAISwift.swift"; sourceTree = "<group>"; };
 		C1F458BA2A715A3A0099AAEA /* HWSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSView.swift; sourceTree = "<group>"; };
 		F700E1E42AFA54D00074BA11 /* DW-Summarizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DW-Summarizer-Info.plist"; sourceTree = "<group>"; };
+		F72B3DA32B88A4A300F15903 /* DW SummarizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DW SummarizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72B3DA52B88A4A300F15903 /* DW_SummarizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_SummarizerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F72B3DA02B88A4A300F15903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +81,7 @@
 			children = (
 				F700E1E42AFA54D00074BA11 /* DW-Summarizer-Info.plist */,
 				C16506012A3B3AD400734BAC /* SelmaKitWrapper */,
+				F72B3DA42B88A4A300F15903 /* DW SummarizerTests */,
 				C16506002A3B3AD400734BAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				C16505FF2A3B3AD400734BAC /* DW Summarizer.app */,
+				F72B3DA32B88A4A300F15903 /* DW SummarizerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +122,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F72B3DA42B88A4A300F15903 /* DW SummarizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F72B3DA52B88A4A300F15903 /* DW_SummarizerTests.swift */,
+			);
+			path = "DW SummarizerTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +156,24 @@
 			productReference = C16505FF2A3B3AD400734BAC /* DW Summarizer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F72B3DA22B88A4A300F15903 /* DW SummarizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72B3DAB2B88A4A300F15903 /* Build configuration list for PBXNativeTarget "DW SummarizerTests" */;
+			buildPhases = (
+				F72B3D9F2B88A4A300F15903 /* Sources */,
+				F72B3DA02B88A4A300F15903 /* Frameworks */,
+				F72B3DA12B88A4A300F15903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72B3DA82B88A4A300F15903 /* PBXTargetDependency */,
+			);
+			name = "DW SummarizerTests";
+			productName = "DW SummarizerTests";
+			productReference = F72B3DA32B88A4A300F15903 /* DW SummarizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -133,11 +181,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					C16505FE2A3B3AD400734BAC = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					F72B3DA22B88A4A300F15903 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C16505FE2A3B3AD400734BAC;
 					};
 				};
 			};
@@ -161,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				C16505FE2A3B3AD400734BAC /* DW Summarizer */,
+				F72B3DA22B88A4A300F15903 /* DW SummarizerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -172,6 +225,13 @@
 			files = (
 				C165060B2A3B3AD500734BAC /* Preview Assets.xcassets in Resources */,
 				C16506072A3B3AD500734BAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72B3DA12B88A4A300F15903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +254,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F72B3D9F2B88A4A300F15903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72B3DA62B88A4A300F15903 /* DW_SummarizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F72B3DA82B88A4A300F15903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C16505FE2A3B3AD400734BAC /* DW Summarizer */;
+			targetProxy = F72B3DA72B88A4A300F15903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C165060C2A3B3AD500734BAC /* Debug */ = {
@@ -396,6 +472,52 @@
 			};
 			name = Release;
 		};
+		F72B3DA92B88A4A300F15903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82DH72DY44;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab-dw.DW-SummarizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DW Summarizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DW Summarizer";
+			};
+			name = Debug;
+		};
+		F72B3DAA2B88A4A300F15903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82DH72DY44;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab-dw.DW-SummarizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DW Summarizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DW Summarizer";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +535,15 @@
 			buildConfigurations = (
 				C165060F2A3B3AD500734BAC /* Debug */,
 				C16506102A3B3AD500734BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72B3DAB2B88A4A300F15903 /* Build configuration list for PBXNativeTarget "DW SummarizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72B3DA92B88A4A300F15903 /* Debug */,
+				F72B3DAA2B88A4A300F15903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
